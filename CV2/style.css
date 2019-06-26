@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'rubiklight';
+    src: url('polices/rubik-light-webfont.woff2') format('woff2'),
+         url('polices/rubik-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#blockpage
+{
+    background-color: rgb(28,28,28);
+    font-family: 'rubiklight', fantasy,monospace,serif;
+    width:100% ;
+    margin :auto;
+    color:whitesmoke;
+    height: 100%;
+    
+}
+#lisere
+{
+    float: left;
+        height:100% ;
+    width: 10%;
+    overflow: hidden;
+}
+@media screen and (max-width: 1024px)
+{
+    #lisere {
+                display:none;
+            }
+    #blockpage {
+        width: auto;
+    }        
+    #corpscv{
+        flex-direction: column;
+    }
+}
+header
+{
+    align-items: center;
+        display:flex;
+        flex-direction: column;
+    position:relative;
+}
+header img
+{
+   position:fixed;
+    right:5%;
+    border:5px rgb(156,107,51) solid;
+    box-shadow: 15px 5px 5px blueviolet;
+    
+}
+#corpscv
+{
+    display: flex;
+    width:85%;
+    margin: auto;
+    position: relative;
+    
+}
+h1
+{
+    color:rgb(44,114,147);
+    font-size: 3em;
+    font-weight: bold;
+    border:10px yellow double;
+    width:80%;
+    padding: 10px;
+    text-align: center
+    
+    
+}
+h3 
+{
+  color:rgb(227,41,104) ;
+    font-size: 1.5em;
+    text-decoration: overline
+}
+h2
+{
+  color:rgb(156,107,51);
+    font-size: 2em;
+    text-decoration: underline
+}
+span
+{
+    font-weight: bold;
+    color:blueviolet;
+    text-decoration: underline;
+}
